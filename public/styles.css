@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#app {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    margin-top: 40px;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+/* User Section Styles */
+#user-list,
+#role-list,
+#permission-list,
+#article-list,
+#comment-list {
+    margin-top: 20px;
+}
+
+.user-item,
+.role-item,
+.permission-item,
+.article-item,
+.comment-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
